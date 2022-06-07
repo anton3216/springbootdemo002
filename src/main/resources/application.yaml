@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: root
+      url: jdbc:mysql:///netclass?serverTimezone=UTC
+  thymeleaf:
+    cache: false
+mybatis:
+  type-aliases-package: com.qingqiao.model
+server:
+  port: 8888
